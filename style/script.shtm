@@ -1,0 +1,9 @@
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+//-->
+</script>

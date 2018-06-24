@@ -1,0 +1,49 @@
+/* CSS Document */
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+	size:11px;
+	background-color:#000000;
+	}
+.nav_link{
+	text-decoration: none; 
+	font-size: 11px; 
+	color: #fff; 
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.nav_link:hover {
+	text-decoration: none; 
+	font-size: 11px; 
+	color:#F59820; 
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.toptxtcolor{
+	text-decoration: none; 
+	font-size: 10px; 
+	color: #fff; 
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.whitetxtcolor{
+	text-decoration: none; 
+	font-size: 11px; 
+	color: #fff; 
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+	text-decoration:none;
+}
+.ErrorText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: FFCC00;
+}
+

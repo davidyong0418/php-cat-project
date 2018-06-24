@@ -1,0 +1,54 @@
+.test {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #660000;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-top-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #660000;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.field{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #333333;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.textlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	border-top-color: #FFFFFF;
+	color: #CCCCCC;
+}
+.bodyfont {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.bodytitle {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

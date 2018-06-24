@@ -1,0 +1,146 @@
+<style type="text/css">
+<!--
+.style2 {color: #000000}
+.style3 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style4 {color: #669900; font-weight: bold; }
+.style5 {color: #FF3300}
+-->
+</style>
+<p>Hi Andrew</p>
+<p><strong>Ok This is what is going on The Example
+  in <span class="style5">RED</span> is NOT correct </strong><br>
+  The transaction fee for this example id .50
+  <br>
+  The Commission Rate is .30 for this example <br>
+  <br>
+  <span class="style2">Original ORDER Price should have been $10.00 it is charging
+  10.50<br>
+  What is happening is the .30% commission fee is taken out of the $10.50 sale
+  for a profit of 3.15 </span><br>
+  <br>
+  MAIN ADMIN Example: 
+</p>
+<table width="100%"  border="1" bordercolor="#FF0000">
+  <tr>
+        <th scope="col">Order Number </th>
+    <th scope="col">Store #</th>
+    <th scope="col">Buyer</th>
+    <th scope="col">Item Number(s)</th>
+    <th scope="col">Order Date </th>
+    <th scope="col">Order Price </th>
+    <th scope="col">Commission Rate</th>
+    
+    <th scope="col">Profit this sale </th>
+    
+    <th bgcolor="#FF3300" scope="col">Earnings Running Total </th>
+    
+  </tr>
+      <tr>
+        <td>4-0000916</td>
+        <td>1</td>
+        <td>Sosio Cristofaro </td>
+        <td>Test Product </td>
+        <td>Friday, November 4, 2005 1:22 PM </td>
+        <td>10.50</td>
+        <td>.30</td>
+        <td>3.15</td>
+        <td bgcolor="#FF3300">3.15 &lt;--Not Correct :( </td>
+      </tr>
+</table>
+<p><br>
+</p>
+<p class="style2">This Is the CORRECT way it should be<br>
+There should be an additional Field Named Transaction Fee</p>
+<p>  Item Price: 10.00<br>
+  Commission Fee .30%<br>
+  Transaction Fee .50<br>
+Total Earnings 3.50</p>
+<table width="100%"  border="1">
+  <tr>
+    <th scope="col">Order Number </th>
+    <th scope="col">Store #</th>
+    <th scope="col">Buyer</th>
+    <th scope="col">Item Number(s)</th>
+    <th scope="col">Order Date </th>
+    <th scope="col">Order Price </th>
+    <th scope="col">Commission Rate</th>
+    <th bgcolor="#33FF33" scope="col">Transaction Fee </th>
+    <th scope="col">Profit this sale </th>
+    <th bgcolor="#33FF33" scope="col">Earnings Running Total </th>
+  </tr>
+  <tr>
+    <td>4-0000916</td>
+    <td>1</td>
+    <td>Sosio Cristofaro </td>
+    <td>Test Product </td>
+    <td>Friday, November 4, 2005 1:22 PM </td>
+    <td>10.00</td>
+    <td>.30</td>
+    <td bgcolor="#33FF33">.50</td>
+    <td>3.50</td>
+    <td bgcolor="#33FF33">3.50&lt;---Correct :) </td>
+  </tr>
+</table>
+<br>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+  <br>
+Store User Control Panel</p>
+<p>Ok For the User Control Panel <br>
+  The example product is  selling is $10.00 --&gt; it is showing
+    as 9.50 <br>
+    .30 commission fee 
+</p>
+<table width="100%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#FF0000">
+  <tr>
+    <th scope="col">Order Number </th>
+    <th scope="col">Buyer</th>
+    <th scope="col">Item Number(s)</th>
+    <th scope="col">Order Date </th>
+    <th scope="col">Order Price </th>
+    <th scope="col">Running Total </th>
+  </tr>
+  <tr>
+    <td>19-0000448</td>
+    <td>Testing Sales Test Sales</td>
+    <td>Test Product 1 </td>
+    <td>Thursday, November 3, 2005 11:00 PM </td>
+    <td>9.5</td>
+    <td>9.5</td>
+  </tr>
+</table>
+<p class="style3">Total Sales: $9.50<BR>
+  Commission Fee $2.90<BR>
+  Charge Back(s) $0.00 <BR>
+Total Earnings $ 6.60 &lt;------This is Incorrect<br>
+<br>
+</p>
+<table width="100%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#00FF00">
+  <tr>
+    <th scope="col">Order Number </th>
+    <th scope="col">Buyer</th>
+    <th scope="col">Item Number(s)</th>
+    <th scope="col">Order Date </th>
+    <th scope="col">Order Price </th>
+    <th scope="col">Running Total </th>
+  </tr>
+  <tr>
+    <td>19-0000448</td>
+    <td>Testing Sales Test Sales</td>
+    <td>Test Product 1 </td>
+    <td>Thursday, November 3, 2005 11:00 PM </td>
+    <td>10.00</td>
+    <td>10.00</td>
+  </tr>
+</table>
+<p class="style4">Total Sales: $10.00<BR>
+  Commission Fee $3.00<BR>
+  Charge Back(s) $0.00 <BR>
+  Total Earnings $ 7.00 &lt;------Correct :)<br> 
+  </p>
+<p class="style3">&nbsp; </p>
+<p class="style3"><br>
+  <br> 
+</p>
