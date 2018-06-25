@@ -4,8 +4,6 @@ PHP Video Chopping Cart
 
 
 
-|---|---|
-
 |![1.png](img/main.png)|
 
 
